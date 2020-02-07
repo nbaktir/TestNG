@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="HRMS">
+  <test name="PIM">
+  	<groups>
+  		<run>
+  			<include name="regression"/>
+  		</run>
+  	</groups>
+    <classes> <!-- This is my PIM module -->
+      <class name="com.review1.AnnotationDemo2"/>
+      <class name="com.review1.AnnotationDemo"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
